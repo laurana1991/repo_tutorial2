@@ -1,5 +1,6 @@
 print("Hola mundo!")
 
-nombre = input("Bienvenida/o, ingrese su nombre: ")
+numero = int(input("Ingrese un número: "))
+numero2 = int(input("Ingrese otro número: "))
 
-print(f"Hola {nombre} !")
+print(f"Resultado de suma es: {numero + numero2}")
